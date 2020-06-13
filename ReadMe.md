@@ -1,4 +1,6 @@
-### Project structure
+## How to import python modules in windows
+
+#### Project structure
 
 ```
 project 
@@ -40,20 +42,20 @@ need sys.path to __init__.py
 
 need context (parent path) to access to sibling folder
 
-### order: g->h
+#### order: g->h
 
 need context (parent path) to access to sibling folder
 
-### order: g->i
+#### order: g->i
 
 need context (parent of parent path) to access to sibling folder
 
-### order: h->i
+#### order: h->i
 
 need context (parent path) to access to sibling folder
 
 
-### Summary
+#### Summary
 
 <ul>
 <li>
@@ -71,7 +73,7 @@ Add current path to __init__.py to prevent an error of importing silbing files w
 </li>
 </ul>
 
-### References
+#### References
 
 https://docs.python-guide.org/writing/structure/
 
