@@ -65,7 +65,7 @@ Need parent path to access to silbing or parent files
 Need parent of parent path to access to files in the root folder (parent of parent folder is top label in this example)
 </li>
 <li>
-Add current path to __init__.py to prevent an error of importing silbing files when called from other files
+Add current path to __init__.py to prevent an error of importing silbing files when called from other files eg) a->b->c
 
     i mport c
 
